@@ -1,0 +1,171 @@
+object Form1: TForm1
+  Left = 487
+  Height = 675
+  Top = 176
+  Width = 651
+  Caption = 'Form1'
+  ClientHeight = 675
+  ClientWidth = 651
+  DesignTimePPI = 144
+  LCLVersion = '2.2.6.0'
+  object Label1: TLabel
+    Left = 160
+    Height = 26
+    Top = 32
+    Width = 334
+    Caption = 'Perhitungan Penjualan Barang'
+    Color = clInfoBk
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -20
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object KodeBarang: TLabel
+    Left = 120
+    Height = 25
+    Top = 128
+    Width = 96
+    Caption = 'KodeBarang'
+    ParentColor = False
+  end
+  object NamaBarang: TLabel
+    Left = 120
+    Height = 25
+    Top = 192
+    Width = 102
+    Caption = 'NamaBarang'
+    ParentColor = False
+  end
+  object Harga: TLabel
+    Left = 120
+    Height = 25
+    Top = 258
+    Width = 48
+    Caption = 'Harga'
+    ParentColor = False
+  end
+  object SubTotal: TLabel
+    Left = 120
+    Height = 25
+    Top = 320
+    Width = 68
+    Caption = 'SubTotal'
+    ParentColor = False
+  end
+  object Diskon: TLabel
+    Left = 120
+    Height = 25
+    Top = 392
+    Width = 55
+    Caption = 'Diskon'
+    ParentColor = False
+  end
+  object TotalBay: TLabel
+    Left = 120
+    Height = 25
+    Top = 464
+    Width = 65
+    Caption = 'TotalBay'
+    ParentColor = False
+  end
+  object Jumlah_barang: TLabel
+    Left = 120
+    Height = 25
+    Top = 520
+    Width = 118
+    Caption = 'Jumlah_barang'
+    ParentColor = False
+  end
+  object CbKode: TComboBox
+    Left = 248
+    Height = 33
+    Top = 120
+    Width = 150
+    ItemHeight = 25
+    Items.Strings = (
+      'A01'
+      'B02'
+      'C03'
+      'D04'
+    )
+    TabOrder = 0
+    Text = 'CbKode'
+  end
+  object ENama: TEdit
+    Left = 248
+    Height = 33
+    Top = 187
+    Width = 120
+    TabOrder = 1
+    Text = 'ENama'
+  end
+  object EHarga: TEdit
+    Left = 248
+    Height = 33
+    Top = 260
+    Width = 120
+    TabOrder = 2
+    Text = 'EHarga'
+  end
+  object ESubTotal: TEdit
+    Left = 248
+    Height = 33
+    Top = 319
+    Width = 120
+    TabOrder = 3
+    Text = 'ESubTotal'
+  end
+  object EDiskon: TEdit
+    Left = 248
+    Height = 33
+    Top = 384
+    Width = 120
+    TabOrder = 4
+    Text = 'EDiskon'
+  end
+  object ETotal: TEdit
+    Left = 248
+    Height = 33
+    Top = 456
+    Width = 120
+    TabOrder = 5
+    Text = 'ETotal'
+  end
+  object EJumlahBarang: TEdit
+    Left = 248
+    Height = 33
+    Top = 512
+    Width = 120
+    TabOrder = 6
+    Text = 'EJumlahBarang'
+  end
+  object Hitung: TButton
+    Left = 133
+    Height = 38
+    Top = 600
+    Width = 113
+    Caption = 'Hitung'
+    TabOrder = 7
+  end
+  object Ulang: TButton
+    Left = 279
+    Height = 38
+    Top = 600
+    Width = 113
+    Caption = 'Ulang'
+    OnClick = UlangClick
+    TabOrder = 8
+  end
+  object Keluar: TButton
+    Left = 441
+    Height = 38
+    Top = 600
+    Width = 113
+    Caption = 'Keluar'
+    TabOrder = 9
+  end
+end

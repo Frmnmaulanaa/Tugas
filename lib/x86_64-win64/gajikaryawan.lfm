@@ -1,0 +1,27 @@
+object Form4: TForm4
+  Left = 377
+  Height = 450
+  Top = 176
+  Width = 626
+  Caption = 'Form4'
+  ClientHeight = 450
+  ClientWidth = 626
+  DesignTimePPI = 144
+  LCLVersion = '2.2.6.0'
+  object Button2: TButton
+    Left = 176
+    Height = 38
+    Top = 352
+    Width = 113
+    Caption = 'btnClear'
+    TabOrder = 0
+  end
+  object Button3: TButton
+    Left = 384
+    Height = 38
+    Top = 352
+    Width = 113
+    Caption = 'Button3'
+    TabOrder = 1
+  end
+end
